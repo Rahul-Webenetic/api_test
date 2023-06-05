@@ -12,7 +12,7 @@ const connection = mysql2.createConnection(
 )
 
 const app = express();
-app.use(express.json());    
+app.use(express.json());    // Middleware that allows you to read data from req.body
 
 const PORT = 5000;
 
